@@ -117,7 +117,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 onClick={goToFirstPage}
                 className="px-3 py-1 bg-blue-600 hover:bg-blue-700 rounded text-sm font-medium transition-colors text-white mt-4"
               >
-                Ir para Primeira Página
+                Voltar a primeira pagina
               </button>
             </div>
           </SidebarGroup>
