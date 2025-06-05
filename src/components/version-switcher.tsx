@@ -38,13 +38,13 @@ export function VersionSwitcher({
               </div>
               <div className="flex flex-col gap-0.5 leading-none">
                 <span className="font-medium">Documentation</span>
-                <span className="">v{selectedVersion}</span>
+                <span className="">{`v${selectedVersion}`}</span>
               </div>
               <ChevronsUpDown className="ml-auto" />
             </SidebarMenuButton>
           </DropdownMenuTrigger>
           <DropdownMenuContent
-            className="w-(--radix-dropdown-menu-trigger-width)"
+            className="w-[--radix-dropdown-menu-trigger-width]"
             align="start"
           >
             {versions.map((version) => (
@@ -52,7 +52,7 @@ export function VersionSwitcher({
                 key={version}
                 onSelect={() => setSelectedVersion(version)}
               >
-                v{version}{" "}
+                {`v${version} `}
                 {version === selectedVersion && <Check className="ml-auto" />}
               </DropdownMenuItem>
             ))}
