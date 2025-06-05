@@ -3,7 +3,7 @@ import "./globals.css";
 import { Metadata } from "next";
 import { Orbitron, Megrim } from "next/font/google";
 import { ReactNode } from "react";
-import { BodyWrapper } from "@/components/BodyWrapper";
+import {BodyWrapper} from "@/components/BodyWrapper";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -22,11 +22,7 @@ export const metadata: Metadata = {
   description: "Soluções inteligentes",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt" className={`${orbitron.variable} ${megrim.variable}`}>
       <BodyWrapper>{children}</BodyWrapper>

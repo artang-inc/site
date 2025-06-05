@@ -3,7 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 @layer base {
   :root {
     --sidebar-background: oklch(0.985 0 0);
@@ -15,7 +14,7 @@
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
   }
- 
+
   .dark {
     --sidebar-background: oklch(0.205 0 0);
     --sidebar-foreground: oklch(0.985 0 0);
@@ -28,9 +27,12 @@
   }
 }
 
-
 body {
-  font-family: var(--font-orbitron), sans-serif;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  font-family: 'Orbitron', sans-serif;
   color: white;
   min-height: 100vh;
   overflow-y: scroll;
@@ -39,7 +41,6 @@ body {
   align-items: center;
   text-align: center;
   padding: 1rem;
-  background: black;
 }
 
 .with-background {
@@ -61,6 +62,7 @@ body {
   border-radius: 1rem;
   padding: 2rem;
 }
+
 
 h1 {
   font-family: var(--font-megrim), cursive;

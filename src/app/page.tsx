@@ -4,17 +4,19 @@ import { Button } from "@/components/ui/button";
 
 export default function App() {
   return (
-    <div className="container">
-      <h1>artang</h1>
-      <h2>Soluções inteligentes.</h2>
-      <p>Estamos construindo...</p>
+    <main >
+      <div>
+        <h1>artang</h1>
+        <h2>Soluções inteligentes.</h2>
+        <p>Estamos construindo...</p>
 
-      {/* Botão com Link */}
-      <Link href="/demo">
-        <Button className="bg-blue-500 text-white hover:bg-blue-600 mt-4">
-          DEMO
-        </Button>
-      </Link>
-    </div>
+        {/* Botão com Link */}
+        <Link href="/demo">
+          <Button className="bg-blue-500 text-white hover:bg-blue-600 mt-4">
+            DEMO
+          </Button>
+        </Link>
+      </div>
+    </main>
   );
 }
