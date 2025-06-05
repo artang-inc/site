@@ -19,7 +19,7 @@ export default function Page() {
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <header className="flex   items-center gap-2 ">
+        <header className="flex items-center gap-2">
           <SidebarTrigger className="-ml-1" />
           <Separator
             orientation="vertical"
