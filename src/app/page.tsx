@@ -19,15 +19,15 @@ const HomePage: React.FC = () => {
 
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Pacotes e Preços"
+          description="Preços simples e transparentes. Sem surpresas."
         >
           <Pricing />
         </Section>
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
+          title="O que os Sigmas Falam"
           description="Hear from those who have partnered with us."
         >
           <Testimonials />

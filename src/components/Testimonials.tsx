@@ -19,11 +19,11 @@ const Testimonials: React.FC = () => {
                             className="rounded-full shadow-md"
                         />
                         <div className="ml-4">
-                            <h3 className="text-lg font-semibold text-secondary">{testimonial.name}</h3>
-                            <p className="text-sm text-foreground-accent">{testimonial.role}</p>
+                            <h3 className="text-lg font-semibold text-secondary text-white">{testimonial.name}</h3>
+                            <p className="text-sm text-foreground-accent text-zinc-400">{testimonial.role}</p>
                         </div>
                     </div>
-                    <p className="text-foreground-accent text-center lg:text-left">&quot;{testimonial.message}&quot;</p>
+                    <p className="text-foreground-accent text-center lg:text-left text-white">&quot;{testimonial.message}&quot;</p>
                 </div>
             ))}
         </div>

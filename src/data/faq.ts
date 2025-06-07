@@ -2,24 +2,28 @@ import { IFAQ } from "@/types";
 import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+  {
+    question: `Artang é seguro mesmo?`,
+    answer:
+      "Pelo amor de Deus, pai... é blindado! Segurança de responsa, nível seleção. Pode usar tranquilo que é coisa fina. RECEBA!",
+  },
+  {
+    question: `Dá pra usar a Artang em vários aparelhos?`,
+    answer:
+      "Claro, irmão! É igual jogada ensaiada: você começa no celular, continua no notebook, e finaliza no tablet. Rodando liso, RECEBA!",
+  },
+  {
+    question: "Consigo conectar todas as contas bancárias?",
+    answer: `Todas, pai! Até aquela conta esquecida do banco de 2003! A Artang puxa tudo, organiza, categoriza... só sucesso.`,
+  },
+  {
+    question: "Preciso ser especialista pra investir?",
+    answer:
+      "Nada disso, irmão! A Artang te guia tudo no passo. É só seguir o plano que o gol sai. Confia no pai. RECEBA!",
+  },
+  {
+    question: "E se eu travar no app?",
+    answer:
+      "Tranquilo, o suporte é brabo! Manda um e-mail, os caras resolvem rapidinho. Aqui ninguém fica na mão, não. Só agradece! RECEBA!",
+  },
 ];
